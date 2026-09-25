@@ -1,0 +1,28 @@
+RUN: D:\anoconda\python.exe -u D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\code\run_batch_parallel_v7.py --workers 1 --search quick --problems 2 --cores 5 --case-ids 62 --results-dir D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\results_v16_p2_beta_tail --solver D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\code\solve_multicore_v7.py
+Cases=1 | combinations=1 | already_done=0 | pending=1 | workers=1 | search=quick
+Scheduling larger cases first; each worker processes one case sequentially.
+[   1/1 100.0%] case_062 p=2 n=5 OK 2m20s ETA~0s | BEST: affinity-b=1; makespan=680398; added_copy_bytes=23056896; plan=D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\results_v16_p2_beta_tail\case_062_p2_n5_multicore_res.json
+Finished pending=1, failed=0, elapsed=2m20s
+{
+  "p1": {
+    "completed_cases": 100,
+    "average_speedup": 3.533598744439252,
+    "minimum_speedup": 0.9919568263193399,
+    "maximum_speedup": 5.501140719714555
+  },
+  "p2": {
+    "completed_cases": 100,
+    "average_speedup": 4.053488902968664,
+    "minimum_speedup": 1.0521217458308108,
+    "maximum_speedup": 6.4615303541315345
+  },
+  "p3": {
+    "completed_cases": 100,
+    "average_speedup": 4.171829224699655,
+    "minimum_speedup": 1.0521217458308108,
+    "maximum_speedup": 6.405495768467245
+  },
+  "missing_files": 0
+}
+wrote D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\results_v8_n5\n5_summary.csv
+V16_P2_BETA_TAIL_COMPLETE improved=False

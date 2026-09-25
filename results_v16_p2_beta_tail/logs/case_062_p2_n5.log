@@ -1,0 +1,17 @@
+[01] contiguous: makespan=832444; added_copy_bytes=5532672
+[02] coarse-w1: makespan=1160786; added_copy_bytes=5243904
+[03] coarse-w0.75: makespan=1449599; added_copy_bytes=4899840
+[04] coarse-w0.95: SKIP duplicate plan
+[05] coarse-w1.25: makespan=2432862; added_copy_bytes=5478912
+[06] affinity-b=0.06: makespan=684118; added_copy_bytes=9172992
+[07] affinity-b=0.12: SKIP duplicate plan
+[08] affinity-b=0.35: SKIP duplicate plan
+[09] affinity-b=0.8: makespan=1433984; added_copy_bytes=19206144
+[10] affinity-b=1: makespan=680398; added_copy_bytes=23056896
+[11] affinity-b=1.5: makespan=2154668; added_copy_bytes=32635392
+[12] affinity-b=2: makespan=1891397; added_copy_bytes=47637504
+[13] rank-affinity-b=0.12: makespan=1347060; added_copy_bytes=60632064
+[14] cluster-rank-b=0.08-c=0.2: makespan=1346712; added_copy_bytes=60625920
+[15] cluster-rank-b=0.12-c=0.35: SKIP duplicate plan
+[16] cluster-rank-b=0.22-c=0.62: SKIP duplicate plan
+BEST: affinity-b=1; makespan=680398; added_copy_bytes=23056896; plan=D:\BaiduNetdiskDownload\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\A题\README\results_v16_p2_beta_tail\case_062_p2_n5_multicore_res.json
